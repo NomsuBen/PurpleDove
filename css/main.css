@@ -26,7 +26,7 @@ button {
   margin: auto;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: 30%;
 }
 
 button:hover {
@@ -142,7 +142,9 @@ span.psw {
 .button1  {
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: position: absolute;
+  left: 30%;
+  right: 53.19%;;
   text-align: center;
   text-decoration: none;
   display: inline-block;

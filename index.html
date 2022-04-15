@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PurpleDove</title>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="PurpleDove.js"></script>
+    </head>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#"><img src="images/VectorPurpleDove.png" alt=""> Purple<span>Dove</span> </a>
+
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                
+                <ul class="primary-nav">
+                    
+                </ul>
+                
+                <ul class="secondary-nav">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">FEATURES</a></li>
+
+                    <li><a href="#">CONTACT</a></li>
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+      
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="images/person.jpg" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+                </ul>
+                
+                
+        </nav>
+    </div>
+           
+    <section class="hero">
+        <div class="container">
+
+            <div class="left-col">
+                <body>
+                <h1 style="color: white" >PurpleDove ERP</h1>
+                <p style="color: white;" 
+                style="">
+                    Integrate and control all your operational processes with our flexible and adaptable ERP system, PurpleDove. With demonstrable success in multiple sectors, PurpleDove is the perfect solution for SMEs across the globe. 
+                
+                </p>
+
+            <p>
+                    <button class="button button1">Get Started Now</button>
+                    <button class="button button2">     Explore   </button>
+            </p>
+                
+                    
+
+
+
+    <section class="testimonials-section">
+        <img src="images/image 6.png" alt="">
+    </section>
+
+    <section class="contact-section">
+        
+
+        </div>
+    </section>
+
+    <script>
+
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+
+
+    </script>
+
+</body>
+</html>
